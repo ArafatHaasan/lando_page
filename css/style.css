@@ -17,9 +17,14 @@ body {
 
 /* GLOBAL CSS */
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.primary{
+  color: #2532de;
+  font-weight: 700;
 }
 .heading {
   font-size: 4rem;
@@ -61,6 +66,13 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+.col-md-8{
+  flex-basis: 66.66%;;
+}
+
+
 .col-md-6 {
   flex-basis: 50%;
 }
@@ -197,6 +209,127 @@ nav ul li:hover::before {
   margin: inherit !important;
 }
 
+/* meet section  */
+.meeting-container{
+  padding: 50px 0;
+}
+.left-meet-content{
+
+}
+
+.left-meet-content h3{
+  font-size: 36px;
+  line-height: 35px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+ul.meeting-features{
+  list-style-image: url("../img/ri.png");
+  list-style-position: outside;
+  padding: 22px 0px 22px 22px;
+  
+  
+}
+
+.meeting-features li{
+  font-size: 16px;
+   line-height: 30px;
+}
+
+
+/* second meeting section  */
+.sec-meeting-container{
+  padding: 30px 0 30px 0;
+}
+
+.sec-meeting-container h3 {
+  font-size: 36px;
+  line-height: 35px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.sec-meeting-container p {
+ padding: 20px 0px 0px 0px;
+ line-height: 27px;
+}
+
+
+
+/* blog section  */
+
+.blog-section{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.blog-content{
+display: flex;
+align-items: center;
+gap: 3rem;
+padding: 5px 0;
+padding-left: 10px;
+
+}
+
+.blog-content-left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 16px;
+
+}
+.blog-content-right{
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 16px;
+}
+
+
+.Blog-footer{
+  padding-right:20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #111111;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+
+.blog-btn{
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 500;
+font-family: "Raleway";
+text-align: center;
+border: none;
+outline: none;
+padding: 12px 35px;
+border-radius: 50px;
+margin: 30px auto;
+background-color: #2532de;
+
+
+}
+
+
+/* contact section  */
+
+/* from design start form here   */
+
+
+
+
+
 /* Footer */
 footer {
   padding: 5rem 0;
@@ -215,3 +348,4 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+
